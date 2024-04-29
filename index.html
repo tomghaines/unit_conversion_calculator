@@ -10,29 +10,32 @@
     <main class="container">
       <header class="container">
         <h1>Metric/Imperial Unit Conversion</h1>
-        <div class="number-container"><p class="number">20</p></div>
-        <button>Convert</button>
+        <div class="input-container">
+          <p id="input-text">Input:</p>
+          <input type="number" id="input-el" />
+        </div>
+        <button id="convert-btn">Convert</button>
       </header>
       <section class="container">
         <div class="data-container">
           <h2>Length (Meter/Feet)</h2>
           <div class="flex-row">
-            <p>20 meters = 65.616 feet</p>
-            <p class="border-left">20 feet = 6.096 meters</p>
+            <p id="meters-el">0m = 0.00ft</p>
+            <p id="feet-el" class="border-left">0ft = 0.00m</p>
           </div>
         </div>
         <div class="data-container">
           <h2>Volume (Liters/Gallons)</h2>
           <div class="flex-row">
-            <p>20 meters = 65.616 feet</p>
-            <p class="border-left">20 feet = 6.096 meters</p>
+            <p id="liters-el">0L = 0.00gal</p>
+            <p id="gallons-el" class="border-left">0gal = 0.00L</p>
           </div>
         </div>
         <div class="data-container">
           <h2>Mass (Kilograms/Pounds)</h2>
           <div class="flex-row">
-            <p>20 meters = 65.616 feet</p>
-            <p class="border-left">20 feet = 6.096 meters</p>
+            <p id="kilos-el">0kg = 0.00lbs</p>
+            <p id="pounds-el" class="border-left">0lbs = 0.00kg</p>
           </div>
         </div>
       </section>
